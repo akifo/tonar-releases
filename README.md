@@ -1,4 +1,4 @@
-# Tonariyuki
+# Tonar
 
 A macOS app that sits quietly beside your online conversations — live on-device transcription with gentle, opt-in AI conversation support. Not a meeting recorder; it's a tool that helps you connect with people you don't know well yet.
 
@@ -10,18 +10,18 @@ A macOS app that sits quietly beside your online conversations — live on-devic
 
 - macOS 26 (Tahoe) or later, Apple Silicon
 - Earphones / headphones recommended
-- Transcription supports **Japanese (ja-JP) only**
+- Transcription defaults to Japanese. You can set a language per person (e.g. English); one language per session, mixed-language conversations are not supported
 
 ## Install
 
-1. Download the latest `.dmg` from [Releases](https://github.com/akifo/tonariyuki-releases/releases)
-2. Open it and drag **Tonariyuki.app** into **Applications**
+1. Download the latest `.dmg` from [Releases](https://github.com/akifo/tonar-releases/releases)
+2. Open it and drag **Tonar.app** into **Applications**
 
 ### First launch
 
 The app is not notarized yet, so macOS blocks it once. Allow it via System Settings:
 
-1. Double-click Tonariyuki.app, then dismiss the "can't be opened" dialog
+1. Double-click Tonar.app, then dismiss the "can't be opened" dialog
 2. Open **System Settings → Privacy & Security**, scroll down to the blocked-app message
 3. Click **"Open Anyway"** and authenticate
 
@@ -31,6 +31,8 @@ This is needed only once. On first session, grant **Microphone** and **System Au
 
 The app checks for updates on launch and updates itself in one click.
 
+Tonar was called Tonariyuki up to v0.1.2. Updating in place keeps your data, saved keys and permissions, but the app keeps its old file name (Tonariyuki.app). To get Tonar.app, quit the app, delete Tonariyuki.app, and install from the latest `.dmg`.
+
 ## Feedback
 
-Please use [Issues](https://github.com/akifo/tonariyuki-releases/issues).
+Please use [Issues](https://github.com/akifo/tonar-releases/issues).
